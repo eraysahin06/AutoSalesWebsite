@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Change this to your name-->
+    <meta name="author" content="Eray Sahin" />
+    <meta name="description" content="WEB222 Fall 2022 Assignment 4" />
+
+    <title>WEB222 Store</title>
+
+    <!-- Classless CSS Stylesheet - https://andybrewer.github.io/mvp/ -->
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css" />
+    <!-- Optional CSS Overrides -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="category-menu">
+        <h1>Eray <span id="h1span">Auto</span></h1>
+        <p id="store-info">The most special vehicles, at the most affordable price</p>
+        <!-- Dynamically create your menu category buttons here -->
+      </nav>
+    </header>
+
+    <hr />
+    <main>
+      <h2 id="category">
+        <!-- Dynamically update the selected category title -->
+      </h2>
+      <div id="extra">
+        <h3>Welcome to <span id="h3span"> Eray Auto</span>.</h3>
+        <p id="welcome-text">
+          Click on a category to see the vehicles available for sale. <br />
+          Discontinued vehicles will not be shown inside categories.
+        </p>
+      </div>
+      <!-- CREATE CARDS IN HERE DYNAMICALLY -->
+      <section class="cards"></section>
+    </main>
+
+    <!-- JavaScript Data Files -->
+    <script src="./js/categories.js"></script>
+    <script src="./js/products.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
