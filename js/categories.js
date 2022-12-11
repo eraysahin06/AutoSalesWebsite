@@ -1,5 +1,3 @@
-
-
 window.categories = [
   { id: "c1", description: "All" },
   { id: "c2", description: "Sedan" },
