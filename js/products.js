@@ -48,7 +48,7 @@ window.products = [
     id: "P6",
     name: "Volkswagen Transporter 2018 Black VIP",
     description: "A luxurious VIP special designed van with a 2.0L engine",
-    price: 22600,
+    price: 25600,
     discontinued: false,
     categories: ["c1", "c5"],
     image: "VAN.jpg"
